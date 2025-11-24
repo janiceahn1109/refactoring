@@ -1,0 +1,83 @@
+commit bd4d6aa42207a192dcfc22522fb6a6a1d4c7851d
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:40:35 2025 -0500
+
+    Task 2.4
+
+commit e0b05b5d169ad2a014fc80a277ccc6065da0601c
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:40:31 2025 -0500
+
+    Task 2.3
+
+commit a37b9973c807a5e9d10957561b33ac3a084ddc8f
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:40:28 2025 -0500
+
+    Task 2.2
+
+commit 5a8886b58afc3e1c4b21a3a572bcc3b719a54c67
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:40:24 2025 -0500
+
+    Task 2.1
+
+commit a0ca158a9d07f971da4da80d8e9e47018d3269d3
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:40:23 2025 -0500
+
+    Task 1.2
+
+commit ec8560ac8e95f24de21bf1694a10e1fff8c83997
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:40:15 2025 -0500
+
+    Task 1.1
+
+commit 3dbe741b416fab996d13bba805612ce8193f16f5
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:36:30 2025 -0500
+
+    commit5
+
+commit 61c9f458a5619ff37775772214b0792db701a757
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:36:24 2025 -0500
+
+    commit5
+
+commit 191705b9c1b5ef941b8bb0ce96fc1654394f8e21
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:36:15 2025 -0500
+
+    commit4
+
+commit 3633105984fa6a69939bed6b69eaaab69caaa5e0
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:36:07 2025 -0500
+
+    commit3
+
+commit b77fc8a0794e87e51aaba950025bb06d4654e30e
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:35:56 2025 -0500
+
+    commit2
+
+commit 75e949537a5acafd5f856f7cd3f7fc3f0e19f369
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:35:36 2025 -0500
+
+    commit2
+
+commit 3e865944646b51ee6288f4ccc6e81014890b6d93
+Author: Janice (Nahyun) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:35:19 2025 -0500
+
+    commit1
+
+commit b38961714576c4cf51996a1dbb923d43cde641a8
+Author: Nahyun (Janice) Ahn <ahnnahyun1@gmail.com>
+Date:   Mon Nov 24 17:27:52 2025 -0500
+
+    Initial commit
