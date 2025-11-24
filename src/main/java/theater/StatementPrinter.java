@@ -18,9 +18,9 @@ public class StatementPrinter {
     }
 
     /**
-     * Returns a formatted statement.
+     * Returns a formatted statement of the invoice.
      *
-     * @return statement text
+     * @return formatted statement
      */
     public String statement() {
         final StringBuilder result =
@@ -30,7 +30,8 @@ public class StatementPrinter {
             final Play play = getPlay(p);
             final int thisAmount = getAmount(p, play);
 
-            result.append(String.format("  %s: %s (%s seats)%n",
+            result.append(String.format(
+                    "  %s: %s (%s seats)%n",
                     play.name,
                     usd(thisAmount),
                     p.audience));
@@ -43,21 +44,21 @@ public class StatementPrinter {
     }
 
     /**
-     * Returns the play for the given performance.
+     * Returns the play for a performance.
      *
-     * @param p Performance
-     * @return play object
+     * @param p performance
+     * @return play
      */
     public Play getPlay(Performance p) {
         return plays.get(p.playID);
     }
 
     /**
-     * Returns the cost of a performance.
+     * Computes the cost of a specific performance.
      *
      * @param p performance
-     * @param play type of play
-     * @return price in cents
+     * @param play play info
+     * @return cost in cents
      */
     public int getAmount(Performance p, Play play) {
         final int audience = p.audience;
@@ -101,15 +102,16 @@ public class StatementPrinter {
             default:
                 throw new RuntimeException("unknown type: " + play.type);
         }
+
         return result;
     }
 
     /**
-     * Returns volume credits earned for a performance.
+     * Computes volume credits for a performance.
      *
      * @param p performance
-     * @param play play details
-     * @return credits
+     * @param play play info
+     * @return credits earned
      */
     public int getVolumeCredits(Performance p, Play play) {
         final int audience = p.audience;
@@ -143,7 +145,7 @@ public class StatementPrinter {
     }
 
     /**
-     * Returns the total owed amount.
+     * Computes the total amount owed.
      *
      * @return total amount in cents
      */
@@ -157,7 +159,7 @@ public class StatementPrinter {
     }
 
     /**
-     * Returns the total volume credits.
+     * Computes total volume credits.
      *
      * @return total credits
      */
@@ -171,15 +173,13 @@ public class StatementPrinter {
     }
 
     /**
-     * Formats the given amount as US dollars.
+     * Formats an amount in cents as USD.
      *
      * @param amount amount in cents
-     * @return formatted string
+     * @return formatted currency string
      */
     public String usd(int amount) {
         final NumberFormat frmt = NumberFormat.getCurrencyInstance(Locale.US);
         return frmt.format(amount / 100.0);
     }
 }
-
-//commit2 commit3 commit4 commit5 commit6
